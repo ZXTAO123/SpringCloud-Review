@@ -1,0 +1,18 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: Eureka8002
+eureka:
+  instance:
+    hostname: localhost
+    #搭建集群的时候，一定需要开启prefer-ip-address
+    prefer-ip-address: true
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/,http://localhost:8001/eureka/
+  server:
+#    enable-self-preservation: false #关闭自我保护机制
+#    eviction-interval-timer-in-ms: 200 #多久扫描一次节点

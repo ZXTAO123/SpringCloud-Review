@@ -1,0 +1,25 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: Gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启服务发现，以便能够实现负载均衡
+      routes:
+        - id: consumer_route_getUserById
+          uri: lb://CONSUMER
+          predicates:
+            - Path= /Consumer/getUser
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: Gateway9527

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-provider6002" />
+        <module name="spring-cloud-gateway-9527" />
+        <module name="spring-cloud-provider6001" />
+        <module name="srping-cloud-consumer" />
+        <module name="Eureka8002" />
+        <module name="Eureka8001" />
+        <module name="spring-cloud-consumer-openfeign-5002" />
+        <module name="spring-cloud-provider-Hystrix6003" />
+        <module name="spring-cloud-config-3344" />
+        <module name="spring-cloud-consumer-openfeign-hystrix-5003" />
+        <module name="spring-cloud-hystrix-dashboard" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

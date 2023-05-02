@@ -1,0 +1,23 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: Config3344
+  cloud:
+    config:
+      discovery:
+        enabled: true
+      server:
+        git:
+          uri: https://github.com/ZXTAO123/studyhard.git
+          search-paths:
+            - studyhard
+      label: master
+eureka:
+  instance:
+    ip-address: Config3344
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/,http://localhost:8002/eureka/

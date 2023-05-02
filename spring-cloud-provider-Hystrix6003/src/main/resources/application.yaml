@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: PROVIDER
+  datasource:
+    url: jdbc:mysql://localhost:3306/user?serverTimezone=UTC
+    username: root
+    password: 030388Zz
+    type: com.alibaba.druid.pool.DruidDataSource
+  #配置consul注册中心
+#  cloud:
+#    consul:
+#      host: localhost #注册中心的ip地址
+#      port: 8500 #注册中心端口号，默认8500
+#      discovery:
+#        service-name: ${spring.application.name} #注册到注册中心的名字
+#        register: true
+#        prefer-ip-address: true #服务请求ip
+#        instance-id: ${spring.application.name} #注册实例的id【必须唯一】
+
+  #以下代码未能成功执行
+  mvc:
+    async:
+      request-timeout: 1000
+server:
+  port: 6003
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    instance-id: provider6003
+#    lease-expiration-duration-in-seconds: 1 #多久发送一次心跳，单位为秒
+#    lease-renewal-interval-in-seconds: 2 #客户端收不到心跳，等待多久时间
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+#mybaitis-plus配置
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

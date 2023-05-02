@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Eureka8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Eureka8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Eureka8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Eureka8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-openfeign-5002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-openfeign-5002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-openfeign-hystrix-5003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-openfeign-hystrix-5003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-gateway-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider-Hystrix6003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider-Hystrix6003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider6001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider6001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider6002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-provider6002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srping-cloud-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/srping-cloud-consumer/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
